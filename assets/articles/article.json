@@ -1,0 +1,92 @@
+{
+    "article1": {
+        "id": 1,
+        "titre": "Les merveilles de la nature",
+        "auteur": "John Doe",
+        "date_publication": "2023-11-08",
+        "contenu": [
+            {
+                "type": "texte",
+                "texte": "Les merveilles de la nature sont infinies. Chaque coin de notre planète recèle des trésors naturels uniques et étonnants."
+            },
+            {
+                "type": "photo",
+                "url": "https://exemple.com/photo1.jpg",
+                "description": "Coucher de soleil sur l'océan"
+            },
+            {
+                "type": "texte",
+                "texte": "La diversité de la faune et de la flore est tout simplement fascinante. Des forêts luxuriantes aux déserts arides, la Terre abrite une multitude d'écosystèmes extraordinaires."
+            },
+            {
+                "type": "photo",
+                "url": "https://exemple.com/photo2.jpg",
+                "description": "Cascade majestueuse en pleine nature"
+            },
+            {
+                "type": "texte",
+                "texte": "Explorer ces merveilles naturelles est une expérience inoubliable. Chaque voyage dans la nature nous rapproche un peu plus de la compréhension et de l'appréciation de notre planète."
+            }
+        ]
+    },
+    "article2": {
+        "id": 2,
+        "titre": "L'exploration spatiale : À la découverte de nouvelles frontières",
+        "auteur": "John Doe",
+        "date_publication": "2023-11-08",
+        "contenu": [
+            {
+                "type": "paragraphe",
+                "texte": "L'exploration spatiale a toujours fasciné l'humanité. Depuis les premiers pas de l'homme sur la Lune en 1969, nous n'avons cessé de repousser les limites de notre compréhension de l'univers."
+            },
+            {
+                "type": "image",
+                "url": "https://exemple.com/image1.jpg",
+                "description": "Une vue magnifique de la Terre depuis l'espace."
+            },
+            {
+                "type": "paragraphe",
+                "texte": "Cette image époustouflante montre la Terre vue depuis la Station spatiale internationale. Elle rappelle la fragilité de notre planète et l'importance de la préserver."
+            },
+            {
+                "type": "image",
+                "url": "https://exemple.com/image2.jpg",
+                "description": "Un astronaute flottant dans l'espace."
+            },
+            {
+                "type": "paragraphe",
+                "texte": "Les astronautes, véritables héros modernes, risquent leur vie pour explorer l'inconnu. Leur courage et leur dévouement sont admirables."
+            }
+        ]
+    },
+    "article3": {
+        "id": 3,
+        "titre": "Un voyage en montagne",
+        "auteur": "John Doe",
+        "date_publication": "2023-11-08",
+        "contenu": [
+            {
+                "type": "paragraphe",
+                "texte": "J'ai récemment entrepris un voyage épique en montagne. L'expérience a été à couper le souffle, littéralement et métaphoriquement."
+            },
+            {
+                "type": "image",
+                "url": "https://exemple.com/image1.jpg",
+                "description": "Vue panoramique depuis le sommet de la montagne"
+            },
+            {
+                "type": "paragraphe",
+                "texte": "La randonnée a commencé tôt le matin. Le sentier s'enfonçait profondément dans la forêt dense, avec des arbres géants qui semblaient toucher le ciel."
+            },
+            {
+                "type": "image",
+                "url": "https://exemple.com/image2.jpg",
+                "description": "Rivière cristalline traversant la vallée"
+            },
+            {
+                "type": "paragraphe",
+                "texte": "Après des heures de marche, nous sommes arrivés au sommet. La vue panoramique qui s'offrait à nous était à couper le souffle. Nous pouvions voir des montagnes à perte de vue, une rivière scintillante serpentant dans la vallée et un ciel d'un bleu profond."
+            }
+        ]
+    }
+}
