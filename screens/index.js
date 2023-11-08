@@ -5,6 +5,6 @@ import Search from "./Search/Search";
 import BranchList from "./BranchList/BranchList";
 import BranchDetails from "./BranchDetail/BranchDetails";
 import OpportunitiesList from "./OpportunitiesList/OpportunitiesList";
-import OpportunityDetails from "./OpportunityDetail/OpportunityDetails";
+import OpportunityDetails from "./OpportunityDetails/OpportunityDetails";
 
 export { Login, SignUp, Home, Search, BranchList, BranchDetails, OpportunitiesList, OpportunityDetails };

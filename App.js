@@ -1,7 +1,9 @@
 import { StyleSheet } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
-import { AuthContext } from "./context/AuthContext";
-
+import { AuthContext, AuthProvider } from "./context/AuthContext";
+import { useState, useContext } from 'react';
+import { useEffect } from 'react';
+import Tabs from "./navigation/Tabs"
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

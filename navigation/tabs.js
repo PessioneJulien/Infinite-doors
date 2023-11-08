@@ -10,7 +10,7 @@ const AuthStack = () => {
             screenOptions={{
                 headerShown: false,
                 cardStyle: {
-                    backgroundColor: COLORS.primary,
+                    backgroundColor: "#fff",
                 },
                 presentation: "transparentModal",
                 detachPreviousScreen: true,
@@ -35,7 +35,7 @@ const Tabs = ({ isLoggedIn }) => {
             screenOptions={{
                 headerShown: false,
                 cardStyle: {
-                    backgroundColor: COLORS.primary,
+                    backgroundColor: "#fff",
                 },
                 presentation: "transparentModal",
                 detachPreviousScreen: true,

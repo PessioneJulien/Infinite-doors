@@ -1,6 +1,6 @@
-import firebase from 'firebase/app';
+import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
@@ -13,11 +13,14 @@ const firebaseConfig = {
     appId: "1:439919878996:web:1d6ed31cb4e842c49c5ec1"
 };
 
-// Initialisez Firebase
-initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-// Accédez aux services Firebase dont vous avez besoin
-const auth = getAuth()
+// Initialize Auth with AsyncStorage as the persistence layer
+const auth = initializeAuth(app, {
+    persistence: getReactNativePersistence(AsyncStorage)
+});
+
 const db = getFirestore();
 const storage = getStorage();
 const serverTimestamp = () => firebase.firestore.FieldValue.serverTimestamp();

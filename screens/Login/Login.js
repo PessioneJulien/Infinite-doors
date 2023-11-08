@@ -1,11 +1,11 @@
-import { Text, StyleSheet, View } from 'react-native'
+import { Text, StyleSheet, View, SafeAreaView, Platform, StatusBar } from 'react-native'
 import React from 'react'
-
+import SafeAreaWrapper from '../../component/SafeAreaWrapper'
 export default Login = () => {
     return (
-        <View>
+        <SafeAreaWrapper>
             <Text>Login</Text>
-        </View>
+        </SafeAreaWrapper>
     )
 }
 
