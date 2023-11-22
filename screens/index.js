@@ -3,7 +3,7 @@ import SignUp from "./SignUp/SignUp";
 import Home from "./Home/Home";
 import Search from "./Search/Search";
 import BranchList from "./BranchList/BranchList";
-import BranchDetails from "./BranchDetail/BranchDetails";
+import BranchDetails from "./BranchDetails/BranchDetails";
 import OpportunitiesList from "./OpportunitiesList/OpportunitiesList";
 import OpportunityDetails from "./OpportunityDetails/OpportunityDetails";
 

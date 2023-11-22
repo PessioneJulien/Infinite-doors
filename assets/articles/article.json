@@ -2,6 +2,7 @@
     "article1": {
         "id": 1,
         "titre": "Les merveilles de la nature",
+        "cover_photo": "https://exemple.com/photo.jpg",
         "auteur": "John Doe",
         "date_publication": "2023-11-08",
         "contenu": [
@@ -32,6 +33,7 @@
     "article2": {
         "id": 2,
         "titre": "L'exploration spatiale : À la découverte de nouvelles frontières",
+        "cover_photo": "https://exemple.com/photo.jpg",
         "auteur": "John Doe",
         "date_publication": "2023-11-08",
         "contenu": [
@@ -61,6 +63,7 @@
     },
     "article3": {
         "id": 3,
+        "cover_photo": "https://exemple.com/photo.jpg",
         "titre": "Un voyage en montagne",
         "auteur": "John Doe",
         "date_publication": "2023-11-08",
