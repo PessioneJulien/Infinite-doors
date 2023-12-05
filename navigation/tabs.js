@@ -41,6 +41,7 @@ const Tabs = ({ isLoggedIn }) => {
                 detachPreviousScreen: true,
                 gestureEnabled: true,
             }}
+            initialRouteName="Home"
         >
             <Stack.Screen name="Login" component={Screen.Login} />
             <Stack.Screen name="SignUp" component={Screen.SignUp} />
